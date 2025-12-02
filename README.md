@@ -1,4 +1,4 @@
-# barejs
+# barets
 
 Bare-bones Node.js starter that gives you the minimum needed to run and test Typescript locally.
 
@@ -25,9 +25,9 @@ npm test
 ```
 .
 ├── src/
-│   ├── index.js        # entry point; logs "Hello world"
-│   └── index.test.js   # placeholder Jest suite
-├── jest.config.js      # Node test env, 5s timeout
+│   ├── index.ts        # entry point; logs "Hello world"
+│   └── index.test.ts   # placeholder Jest suite
+├── jest.config.ts      # Node test env, 5s timeout
 └── package.json        # scripts and metadata
 ```
 
