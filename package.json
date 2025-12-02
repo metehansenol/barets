@@ -1,0 +1,36 @@
+{
+  "name": "barets",
+  "version": "0.0.1",
+  "description": "Bare minimum content to run and debug any ts in your local",
+  "main": "dist/index.js",
+  "author": "metehansenol",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && tsc --watch",
+    "clean": "rm -rf dist",
+    "start": "node --watch dist/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehansenol/barets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metehansenol/barets/issues"
+  },
+  "homepage": "https://github.com/metehansenol/barets#readme",
+  "keywords": [
+    "bare",
+    "minimal",
+    "typescript",
+    "template",
+    "boilerplate"
+  ]
+}
